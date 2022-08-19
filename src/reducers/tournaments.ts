@@ -40,12 +40,6 @@ const initialState: TournamentsState = {
   list: [],
 };
 
-// export const tournamentTypes = {
-//   FETCH_TOURNAMENTS: "FETCH_TOURNAMENTS"
-// }
-
-export const FETCH_TOURNAMENTS = 'FETCH_TOURNAMENTS';
-
 export default function tournaments(
   state: {
     dataStatus: TOURNAMENT_DATA_STATUS;
