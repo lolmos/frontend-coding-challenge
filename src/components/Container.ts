@@ -6,6 +6,7 @@ const Container = styled.div`
   margin-top: ${theme.spacing(6)};
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 `;
 
 export default Container;
